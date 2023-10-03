@@ -1,0 +1,190 @@
+.Tasks {
+  padding: 20px;
+  overflow: auto;
+  color: #fff;
+}
+.mainheading {
+  text-align: center;
+  font-size: 35px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Styling for TaskForm */
+form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for TaskList */
+div > button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+div > button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 0.5px solid #082f73;
+  margin: 10px 0;
+  border-radius: 5px;
+  height: "auto";
+  justify-content: space-between;
+}
+
+li input[type="checkbox"] {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px;
+}
+label {
+  display: "flex";
+  align-items: "center";
+}
+
+li button {
+  /* color: #fff; */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: #cc0000;
+}
+
+/* Animation */
+li {
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #0a0345;
+}
+
+/* App.css */
+
+.header {
+  /* text-align: justify; */
+  padding: 10px 0;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  /* border-bottom: 3px solid; */
+  padding-left: 5px;
+  font-size: 25px;
+}
+.btn:hover {
+  background-color: transparent;
+}
+.closebtn {
+  cursor: pointer;
+  padding: 10px;
+  margin-left: auto;
+}
+.Tab {
+  padding: 10px;
+}
+
+.deletebtn {
+  color: #fff;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.addbtn.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  background-color: #0a0345;
+  color: #fff;
+  padding: 10px 10px;
+}
+.descriptionText {
+  overflow-wrap: break-word;
+
+  word-wrap: "break-word";
+  word-break: "break-word";
+}
+.dropdown-filter {
+  padding: 10px;
+}
+.dropdown-filter select {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+.dropdown-filter select option {
+  font-size: 15px;
+}
+.datetime {
+  color: #606060;
+}
+@media (max-width: 768px) {
+  .descriptionText {
+    max-width: 100%;
+    overflow-x: auto;
+    word-wrap: break-word;
+  }
+
+  .heading {
+    font-size: 18px;
+    padding-left: 4px;
+  }
+  .header {
+    /* text-align: justify; */
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .mainheading {
+    text-align: center;
+    font-size: 25px;
+  }
+}
