@@ -16,7 +16,7 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
 
-function Taskspage() {
+function App() {
   const [tasks, setTasks] = useState([]);
   const [open, setOpen] = React.useState(false);
 

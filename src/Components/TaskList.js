@@ -3,7 +3,6 @@ import "./Task.css";
 import DeleteIcon from "@mui/icons-material/DeleteOutlineOutlined";
 import { Typography } from "@mui/material";
 import { Tabs, Tab, Paper, Button } from "@mui/material";
-import AssignmentIcon from "@mui/icons-material/AssignmentOutlined";
 import Slide from "react-reveal/Slide";
 import Reveal from "react-reveal/Reveal";
 import Pulse from "react-reveal/Pulse";

@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 const TaskForm = ({ addTask, handleClose }) => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [open, setOpen] = React.useState(false);
+
   const currentDateTime = new Date();
   const formattedDateTime = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
